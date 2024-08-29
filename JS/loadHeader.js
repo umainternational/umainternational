@@ -1,5 +1,5 @@
 function loadHeader() {
-    fetch('https://github.com/umainternational/umainternational/header.html')
+    fetch('https://umainternational.github.io/umainternational/header.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('headerContainer').innerHTML = data;
